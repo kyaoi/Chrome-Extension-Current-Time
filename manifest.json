@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Copy Current Time",
+  "version": "1.0",
+  "description": "Copy current time to clipboard in YYYYMMDDHHMM format.",
+  "permissions": ["contextMenus", "scripting", "activeTab", "clipboardWrite"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "copy-current-time": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "Copy current time to clipboard"
+    }
+  },
+  "icons": {
+    "16": "icon.jpg",
+    "48": "icon.jpg",
+    "128": "icon.jpg"
+  }
+}
