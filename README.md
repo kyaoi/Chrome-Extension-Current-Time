@@ -1,19 +1,18 @@
-# インストール方法
+# Installation
 
-1. このリポジトリをクローンする。
-2. ブラウザの拡張機能管理ページを開く。
-3. 「パッケージされていない拡張機能を読み込む」をクリックし、このフォルダを選択する。
+1. Clone this repository.
+2. Open the extensions management page in your browser.
+3. Click "Load unpacked" and select this folder.
 
-# 使い方
+# Usage
 
-## 右クリックメニュー
+## Right-Click Menu
 
-1. 右クリックして「Copy Current Time」を選択します。
-2. 現在の時刻が「YYYYMMDDHHMM」の形式でクリップボードにコピーされます。
-   例えば、2024 年 8 月 10 日 12 時 30 分は `202408101230` としてコピーされます。
+1. Right-click and select "Copy Current Time."
+2. The current time will be copied to your clipboard in the format "YYYYMMDDHHMM." For example, 12:30 PM on August 10, 2024, will be copied as `202408101230`.
 
-## キーボードショートカット
+## Keyboard Shortcut
 
-1. **Windows/Linux:** `Ctrl + Shift + Y` を押します。
-2. **macOS:** `Command + Shift + Y` を押します。
-3. 現在の時刻が「YYYYMMDDHHMM」の形式でクリップボードにコピーされます。
+1. **Windows/Linux:** Press `Ctrl + Shift + Y`.
+2. **macOS:** Press `Command + Shift + Y`.
+3. The current time will be copied to your clipboard in the format "YYYYMMDDHHMM."
