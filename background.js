@@ -30,28 +30,9 @@ function pasteTimeToActiveElement() {
     activeElement &&
     (activeElement.tagName === "INPUT" || activeElement.tagName === "TEXTAREA")
   ) {
-    const start = activeElement.selectionStart;
-    const end = activeElement.selectionEnd;
-    const text = activeElement.value;
-    activeElement.value =
-      text.slice(0, start) + formattedTime + text.slice(end);
-    activeElement.selectionStart = activeElement.selectionEnd =
-      start + formattedTime.length;
+    document.execCommand("insertText", false, formattedTime);
   } else {
-    // Use Range and Selection API for contenteditable elements or other non-input elements
-    const selection = window.getSelection();
-    if (selection.rangeCount > 0) {
-      const range = selection.getRangeAt(0);
-      range.deleteContents();
-      const textNode = document.createTextNode(formattedTime);
-      range.insertNode(textNode);
-
-      // Move the cursor to the end of the inserted text
-      range.setStartAfter(textNode);
-      range.setEndAfter(textNode);
-      selection.removeAllRanges();
-      selection.addRange(range);
-    }
+    console.log("No valid input element is focused.");
   }
 }
 

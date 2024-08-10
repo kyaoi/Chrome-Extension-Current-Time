@@ -12,7 +12,7 @@
 
 1. Right-click and select "Time Formatter & Clipboard Tool."
 2. From the submenu, choose "Copy Current Time" to copy the current time to your clipboard in the format "YYYYMMDDHHMM."
-3. Alternatively, choose "Paste Current Time" to insert the current time at your cursor location in any text field or contenteditable element.
+3. Alternatively, choose "Paste Current Time" to insert the current time at your cursor location in any text field (e.g., input, textarea) or contenteditable element.
 
 ### Keyboard Shortcut
 

@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Time Formatter & Clipboard Tool",
-  "version": "1.1",
+  "version": "1.1.2",
   "description": "Easily copy the current date and time in YYYYMMDDHHMM format to your clipboard or directly paste it at your cursor location.",
   "permissions": ["contextMenus", "scripting", "activeTab", "clipboardWrite"],
   "background": {
